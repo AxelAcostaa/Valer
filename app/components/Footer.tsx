@@ -33,7 +33,7 @@ const Footer = () => (
       className="mt-12 px-10 py-4 rounded-full font-bold uppercase tracking-widest transition-colors"
       style={{ backgroundColor: COLORS.accent }}
     >
-      Agendar una sesión
+      Contactanos
     </motion.a>
   </footer>
 );

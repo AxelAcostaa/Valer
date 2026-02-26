@@ -12,8 +12,8 @@ const EXPERIENCIAS = [
     tituloModal: "Estrategias científicas",
     descripcion: "Pasar de la reacción a la acción consciente mediante hábitos cognitivos.",
     imagen: "/FLYERS5.jpg", 
-    tipo: "descarga",
-    link: "/Neuroherramientas.docx",
+    tipo: "whatsapp",
+    link: "¡Hola! Quiero pedir más info sobre el taller 'Estrategias científicas para el bienestar' del 06 de marzo.",
   },
   {
     id: 2,
@@ -99,11 +99,11 @@ const EXPERIENCIAS = [
   {
     id: 11,
     tituloTarjeta: "Próximamente",
-    tituloModal: "Nuevas experiencias",
-    descripcion: "Consultanos por nuevas fechas y talleres disponibles en el espacio.",
-    imagen: "/PASEVALER.png",
-    tipo: "whatsapp",
-    link: "¡Hola! Quería consultar por las próximas experiencias de Valer.",
+    tituloModal: "  Neuroherramientas para el bienestar",
+    descripcion: "Entrenamiento práctico de 4 encuentros para aprender a gestionar tus emociones y diseñar un futuro con propósito mediante herramientas de neurociencia.",
+    imagen: "/neuroh.jpg",
+    tipo: "descarga",
+    link: "/Neuroherramientas.docx",
   },
 ];
 
