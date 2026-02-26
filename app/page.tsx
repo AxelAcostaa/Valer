@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main className="min-h-screen w-full text-white overflow-x-hidden relative">
       
-      {/* 1. CAPA DE FONDO FIJA: Separada del contenido para no romper el 'fixed' del modal y el Navbar */}
+      {/* 1. CAPA DE FONDO FIJA */}
       <div 
         className="fixed inset-0 z-[-1] bg-cover bg-center"
         style={{ backgroundImage: "url('/fondo-hero.jpg')" }} 
@@ -24,7 +24,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/20 backdrop-blur-[2px]"></div>
       </div>
 
-      {/* 2. CONTENIDO DE LA PÁGINA: Flota por encima del fondo */}
+      {/* 2. CONTENIDO DE LA PÁGINA */}
       <div className="relative z-10 flex flex-col gap-0">
         <Navbar />
         
@@ -32,13 +32,11 @@ export default function Home() {
           <Hero />
         </section>
 
-        {/* Secciones con fondo sólido que tapan la imagen de fondo */}
         <Mission />
         <PaseValer />
         <BeneficiosPase />
         <PresentaProyecto />
         
-        {/* SECCIONES TRANSPARENTES (Aquí se verá la imagen de fondo) */}
         <div className="bg-transparent">
           <Galeria />
         </div>
