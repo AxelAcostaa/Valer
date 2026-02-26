@@ -19,9 +19,11 @@ export default function ContactForm() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    const result = schema.safeParse(form);
+   const result = schema.safeParse(form);
     if (!result.success) {
-      toast.error(result.error.errors[0].message);
+      // Usamos '.issues', que es la propiedad correcta en Zod
+      const message = result.error?.issues?.[0]?.message ?? "Error de validación";
+      toast.error(message);
       return;
     }
     setLoading(true);
