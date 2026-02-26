@@ -93,8 +93,8 @@ const EXPERIENCIAS = [
     tituloModal: "Taller de retrato de mascotas",
     descripcion: "Técnicas de sombreado y texturas enfocadas en aprender a retratar a tu mascota.",
     imagen: "/FLYERS11.jpg",
-    tipo: "descarga",
-    link: "/Clases de dibujo.docx",
+    tipo: "whatsapp",
+    link: "¡Hola! Quiero info sobre el taller 'Taller de retrato de mascotas' del 28 de marzo.",
   },
   {
     id: 11,
@@ -104,6 +104,15 @@ const EXPERIENCIAS = [
     imagen: "/neuroh.jpg",
     tipo: "descarga",
     link: "/Neuroherramientas.docx",
+  },
+   {
+    id: 12,
+    tituloTarjeta: "Todos los jueves",
+    tituloModal: " Laboratorio de dibujo",
+    descripcion: "Espacio semanal para dibujar, compartir y conectar con otros amantes del arte.",
+    imagen: "/FLYERS12.jpg",
+    tipo: "descarga",
+    link: "/Clases de dibujo.docx",
   },
 ];
 
